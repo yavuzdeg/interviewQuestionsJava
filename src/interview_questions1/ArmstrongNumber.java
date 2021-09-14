@@ -21,6 +21,7 @@ public class ArmstrongNumber {
         }else{
             System.out.println(number + " is NOT an armstrong number.");
         }
+        scan.close();
     }
 
     public static int armstrongNumber (int number){
